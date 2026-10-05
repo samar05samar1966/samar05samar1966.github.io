@@ -482,9 +482,6 @@ img {
     font-style: italic;
 }
 
-
-
-
 .story-image {
     width: min(35vw, 500px);
     flex-shrink: 0;
@@ -495,10 +492,6 @@ img {
     object-fit: cover;
     border-radius: 20px;
 }
-
-
-
-
 
 
 .story-container {
