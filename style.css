@@ -461,13 +461,13 @@ img {
 
 
 /* ================= STORY PAGE ================= */
-
 .story-hero {
     min-height: 75vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 150px 8% 80px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 120px 8% 80px;
     background: #dcd6ff;
 }
 
@@ -486,11 +486,11 @@ img {
 
 
 .story-image {
-    width: min(35vw, 400px);
+    width: min(35vw, 500px);
     flex-shrink: 0;
 }
 .story-hero img {
-     width: 100%;
+    width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 20px;
